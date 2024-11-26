@@ -1,0 +1,45 @@
+:root{
+   --main-color:#1E3E62;
+   --secondary-color:#0B192C;
+   --dark-color:#000000;
+   --accent-color:#FF6500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--main-color);
+}
+
+#start-quiz, #card{
+    width: 600px;
+    height: 300px;
+    background-color: var(--secondary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#start-quiz{
+    display: none;
+}
+
+h1{
+    color: var(--accent-color);
+}
+
+#card{
+
+}

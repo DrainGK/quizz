@@ -1,0 +1,110 @@
+{
+    "categories": [
+      {
+        "name": "Histoire de France",
+        "questions": [
+          {
+            "difficulty": "facile",
+            "question": "Quel roi est connu sous le nom de 'Roi Soleil'?",
+            "answers": [
+              { "text": "Louis XIV", "isCorrect": true },
+              { "text": "Louis XVI", "isCorrect": false },
+              { "text": "François Ier", "isCorrect": false },
+              { "text": "Henri IV", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "moyenne",
+            "question": "En quelle année la Révolution française a-t-elle commencé?",
+            "answers": [
+              { "text": "1789", "isCorrect": true },
+              { "text": "1776", "isCorrect": false },
+              { "text": "1804", "isCorrect": false },
+              { "text": "1799", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "difficile",
+            "question": "Quel traité a mis fin à la Première Guerre mondiale?",
+            "answers": [
+              { "text": "Le traité de Versailles", "isCorrect": true },
+              { "text": "Le traité de Paris", "isCorrect": false },
+              { "text": "Le traité de Tordesillas", "isCorrect": false },
+              { "text": "Le traité de Rome", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "facile",
+            "question": "Quelle est la date de la prise de la Bastille?",
+            "answers": [
+              { "text": "14 juillet 1789", "isCorrect": true },
+              { "text": "4 juillet 1776", "isCorrect": false },
+              { "text": "11 novembre 1918", "isCorrect": false },
+              { "text": "1er mai 1886", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "moyenne",
+            "question": "Quel général est devenu empereur de France en 1804?",
+            "answers": [
+              { "text": "Napoléon Bonaparte", "isCorrect": true },
+              { "text": "Charles de Gaulle", "isCorrect": false },
+              { "text": "Louis-Philippe", "isCorrect": false },
+              { "text": "Maximilien Robespierre", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "difficile",
+            "question": "Qui était le dernier roi de France avant la Révolution française?",
+            "answers": [
+              { "text": "Louis XVI", "isCorrect": true },
+              { "text": "Louis XV", "isCorrect": false },
+              { "text": "Louis XIV", "isCorrect": false },
+              { "text": "Napoléon III", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "facile",
+            "question": "Qui a fondé la ville de Marseille?",
+            "answers": [
+              { "text": "Les Grecs", "isCorrect": true },
+              { "text": "Les Romains", "isCorrect": false },
+              { "text": "Les Gaulois", "isCorrect": false },
+              { "text": "Les Vikings", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "moyenne",
+            "question": "Qui était la 'Pucelle d'Orléans'?",
+            "answers": [
+              { "text": "Jeanne d'Arc", "isCorrect": true },
+              { "text": "Marie Antoinette", "isCorrect": false },
+              { "text": "Catherine de Médicis", "isCorrect": false },
+              { "text": "Aliénor d'Aquitaine", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "difficile",
+            "question": "Quel roi a instauré l'édit de Nantes en 1598?",
+            "answers": [
+              { "text": "Henri IV", "isCorrect": true },
+              { "text": "François Ier", "isCorrect": false },
+              { "text": "Louis XIII", "isCorrect": false },
+              { "text": "Louis XV", "isCorrect": false }
+            ]
+          },
+          {
+            "difficulty": "moyenne",
+            "question": "Quelle bataille a marqué la fin de Napoléon Bonaparte?",
+            "answers": [
+              { "text": "La bataille de Waterloo", "isCorrect": true },
+              { "text": "La bataille d'Austerlitz", "isCorrect": false },
+              { "text": "La bataille de Leipzig", "isCorrect": false },
+              { "text": "La bataille de Borodino", "isCorrect": false }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
