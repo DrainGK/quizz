@@ -33,7 +33,6 @@ body{
 }
 
 #start-quiz{
-    display: none;
 }
 
 h1{
@@ -41,5 +40,14 @@ h1{
 }
 
 #card{
+    display: none;
+    color: white;
+}
 
+#card button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
 }
