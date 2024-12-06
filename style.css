@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
    --main-color:#1E3E62;
    --secondary-color:#0B192C;
    --dark-color:#000000;
    --accent-color:#FF6500;
+   --font-accent: "Pirata One", system-ui;
+   --font-main: "Raleway", sans-serif;
 }
 
 *{
@@ -17,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font-main);
 
     background-color: var(--main-color);
 }
@@ -33,10 +39,13 @@ body{
 }
 
 #start-quiz{
+    gap: 2rem;
 }
 
 h1{
     color: var(--accent-color);
+    font-family: var(--font-accent);
+    font-size: 3rem
 }
 
 #card{
@@ -50,4 +59,23 @@ h1{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    min-width: 150px;
+    color: white;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.quiz-selection{
+    display: flex; /* Enable Flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center; /* Center items horizontally */
+    width: 80%;
+    margin: 0 auto;
+    gap: 16px;
 }

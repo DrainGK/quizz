@@ -23,6 +23,7 @@ const quizManager = {
         this.cardElement.style.display = "block";
         this.cardElement.innerHTML = "";
         const selectQuizMenu = document.createElement("div");
+        selectQuizMenu.className = "quiz-selection";
         
         data.categories.forEach((quiz) => {
             const categoryQuiz = document.createElement("button");
@@ -30,7 +31,7 @@ const quizManager = {
 
             categoryQuiz.addEventListener("click", ()=>{
                 this.currentQuiz = quiz;
-                this.currentQuestionIndex = 0;
+                  this.currentQuestionIndex = 0;
                 this.quizScore = 0;
                 this.createQuizCard(quiz.questions[this.currentQuestionIndex]);
             
